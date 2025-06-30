@@ -51,7 +51,7 @@ runner = Runner(agent=adk_agent, app_name="host_app", session_service=session_se
 # Define a consistent session ID to avoid "Session not found" errors
 # This approach uses a fixed session for simplicity
 USER_ID = "user-1"
-SESSION_ID = "host-session-1"
+SESSION_ID = "host-session-2"
 
 # Initialize the session once at startup
 print(f"Creating persistent session: {SESSION_ID}")
